@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+    color: #2d3436;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.nav-link.active {
+    background-color: #6c5ce7 !important;
+    color: white !important;
+    border-radius: 8px;
+}
+
+.list-group-item {
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 10px !important;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+    .list-group-item:hover {
+        transform: scale(1.02);
+        background-color: #f1f2f6;
+    }
+
+.badge-origin {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+body {
+    background-color: #f4f7f6; /* Un gris muy suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+    color: #6c757d;
+    transition: all 0.3s;
+}
+
+    .nav-link:hover {
+        background-color: #f8f9fa;
+    }
+
+.card {
+    transition: transform 0.2s;
+}
+
+.table thead th {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}

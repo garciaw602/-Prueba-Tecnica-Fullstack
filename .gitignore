@@ -1,0 +1,9 @@
+# .NET Backend
+**/bin/
+**/obj/
+**/.vs/
+
+# React Frontend
+**/node_modules/
+**/dist/
+.env
