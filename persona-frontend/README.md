@@ -6,7 +6,7 @@ Esta es una solución profesional para la gestión de personas, construida con u
 
 ## 🌐 Demo en Vivo (Frontend)
 El Frontend ha sido desplegado en Vercel para una inspección rápida de la interfaz, componentes y validaciones de cliente:
-👉 **[Link del Proyecto en Vercel](https://-prueba-tecnica-fullstack-epn1bimeo-wilson-garcias-projects.vercel.app)**
+👉 **[Link del Proyecto en Vercel](https://prueba-tecnica-fullstack-epn1bimeo-wilson-garcias-projects.vercel.app/)**
 
 > **⚠️ Nota Técnica Importante:**
 > El despliegue en Vercel es únicamente para la capa visual y demostración de componentes. Dado que la API (.NET) y la persistencia de datos están diseñadas para ejecutarse en un entorno seguro, las funciones de **Guardar / Editar / Eliminar** requieren que el Backend esté corriendo localmente para conectar con el servidor de datos, tal como se detalla en las instrucciones de abajo.
