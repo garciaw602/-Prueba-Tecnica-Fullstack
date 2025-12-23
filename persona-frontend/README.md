@@ -1,16 +1,64 @@
-# React + Vite
+# 🚀 Prueba Técnica Fullstack - Wilson García
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una solución profesional para la gestión de personas, construida con una arquitectura desacoplada utilizando **.NET 8** para el Backend y **React** para el Frontend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Demo en Vivo (Frontend)
+El Frontend ha sido desplegado en Vercel para una inspección rápida de la interfaz, componentes y validaciones de cliente:
+👉 **[Link del Proyecto en Vercel](https://-prueba-tecnica-fullstack-epn1bimeo-wilson-garcias-projects.vercel.app)**
 
-## React Compiler
+> **⚠️ Nota Técnica Importante:**
+> El despliegue en Vercel es únicamente para la capa visual y demostración de componentes. Dado que la API (.NET) y la persistencia de datos están diseñadas para ejecutarse en un entorno seguro, las funciones de **Guardar / Editar / Eliminar** requieren que el Backend esté corriendo localmente para conectar con el servidor de datos, tal como se detalla en las instrucciones de abajo.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend (.NET 8)
+* **ASP.NET Core Web API**: Endpoints RESTful para el manejo de recursos.
+* **FluentValidation**: Validación robusta de reglas de negocio (campos obligatorios y unicidad de documentos).
+* **Dependency Injection**: Uso de Singletons para la gestión de persistencia en memoria.
+* **CORS Policy**: Configurada específicamente para permitir peticiones desde Localhost y el dominio de Vercel.
+
+### Frontend (React + Vite)
+* **React Hooks**: Manejo de estado dinámico con `useState` y ciclos de vida con `useEffect`.
+* **Axios**: Cliente HTTP para la comunicación asíncrona con la API.
+* **Bootstrap**: Framework de estilos para un diseño responsivo y moderno.
+* **SweetAlert2**: Implementación de alertas estéticas para feedback del usuario.
+
+---
+
+## 💻 Instrucciones para Ejecución Local
+
+Siga estos pasos para probar la funcionalidad completa (CRUD con persistencia de datos):
+
+### 1. Clonar el Repositorio
+Abra una terminal y ejecute:
+git clone [https://github.com/garciaw602/-Prueba-Tecnica-Fullstack.git](https://github.com/garciaw602/-Prueba-Tecnica-Fullstack.git)
+2. Ejecutar el Backend (API)
+Diríjase a la carpeta PersonaApi y abra el archivo de solución en Visual Studio 2022.
+
+Asegúrese de que el proyecto de inicio sea PersonaApi.
+
+Presione F5 o el botón Play.
+
+La API se iniciará en: https://localhost:7194 (se abrirá automáticamente la interfaz de Swagger para pruebas).
+
+3. Ejecutar el Frontend (React)
+Abra una nueva terminal en la carpeta raíz del proyecto y entre a la carpeta del frontend:
+
+Bash
+
+cd persona-frontend
+Instale las dependencias necesarias:
+
+Bash
+
+npm install
+Inicie el servidor de desarrollo:
+
+Bash
+
+npm run dev
+El sistema le indicará que la aplicación está lista en: http://localhost:5173
