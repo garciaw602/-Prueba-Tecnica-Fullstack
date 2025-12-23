@@ -1,3 +1,5 @@
+[Ver Análisis y Pseudocódigo (PDF)](https://github.com/garciaw602/-Prueba-Tecnica-Fullstack/blob/main/pseudoc%C3%B3digo.pdf)
+
 <img src="https://github.com/garciaw602/-Prueba-Tecnica-Fullstack/blob/main/Gif.gif" alt="GIF Prueba" width="1000" style="margin-bottom: 10px;">
 # 🚀 Prueba Técnica Fullstack - Wilson García
 
